@@ -1,5 +1,9 @@
 html{background-color: rgb(67, 157, 67);}
 
+* {
+    box-sizing: border-box;
+  }
+
 h1
 {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 color: rgb(218, 89, 42);
@@ -12,21 +16,25 @@ section{
     border-style:solid;
     background-color: bisque;
     padding: 10px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 300px;
+    color: rgb(74, 74, 74);
 }
-
-
+   
 .dish
 { color:rgb(65, 65, 219) ;
   font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+  width: 100px;
+  padding: 4px;
+  border: solid;
+  text-align: center;
+  position: relative;
+  left: 80%;
+  top: 1%;
 }
-
-.aboutdish
-{
-color: rgb(74, 74, 74);
-}
-
 
 .row{
     width: 100%;
@@ -35,6 +43,8 @@ color: rgb(74, 74, 74);
 /*large screens*/
 
 @media (min-width:992px){
+
+    section{width: 500px;}
 
     .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12{
         float: left; }
@@ -79,9 +89,9 @@ color: rgb(74, 74, 74);
 
 /* tablet screens  (between 768px and 991px, inclusively) */
 @media (min-width: 768px) and (max-width:991px) {
+
     .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12{
-        float: left;
-    }
+        float: left;}
 
     .col-lg-1 {
         width: 8.33%;
