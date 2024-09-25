@@ -4,27 +4,51 @@ html{background-color: rgb(67, 157, 67);}
     box-sizing: border-box;
   }
 
-h1
-{font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+h1 {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 color: rgb(218, 89, 42);
 text-align: center;
 }
 
 /*basic style*/
 
-section{
-    border: 3px;
+#sec1{border: 3px;
     border-color: black;
     border-style:solid;
     background-color: bisque;
     padding: 10px;
     color: rgb(74, 74, 74);
 }
+
+#sec2{border: 3px;
+  border-color: black;
+  border-style:solid;
+  background-color: bisque;
+  padding: 10px;
+  color: rgb(74, 74, 74);}
+
+#sec3{border: 3px;
+    border-color: black;
+    border-style:solid;
+    background-color: bisque;
+    padding: 10px;
+    color: rgb(74, 74, 74);}
    
-.dish
-{ color:rgb(65, 65, 219) ;
+#ramen { color:rgb(65, 65, 219) ;
   font-family: Arial, Helvetica, sans-serif;
   background-color: white;
+  width: 100px;
+  padding: 4px;
+  text-align: center;
+  position: absolute;
+  left: 80%;
+  top:-7%;
+  border-bottom: solid;
+  border-left: solid;
+  border-color: black;}
+
+#tacos {color:rgb(219, 65, 65) ;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(189, 230, 68);
   width: 100px;
   padding: 4px;
   text-align: center;
@@ -34,8 +58,25 @@ section{
   top:-7%;
   border-bottom: solid;
   border-left: solid;
-  border-color: black;
-}
+  border-color: black;}
+
+#pasta{color:rgb(211, 219, 65) ;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(189, 64, 203);
+    width: 100px;
+    padding: 4px;
+    text-align: center;
+    position: absolute;
+    float: right;
+    left: 80%;
+    top:-7%;
+    border-bottom: solid;
+    border-left: solid;
+    border-color: black;}
+
+.aboutdish{position: absolute;
+top: 30px; }
+
 
 .row{
     width: 100%;
@@ -46,8 +87,9 @@ section{
 @media (min-width:992px){
 
   section{
-    margin: 10px;
-    width: 60%;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
     height: 300px;
     position: relative;
     }
@@ -97,8 +139,10 @@ section{
 @media (min-width: 768px) and (max-width:991px) {
 
   section{
-    margin: 10px;
-    width: 60%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 20px;
+    width: 90%;
     height: 300px;
     position: relative;}
 
@@ -145,46 +189,56 @@ section{
 }
 
 
-/* mobile screens (equal to or less than 767px) */
+/* mobile screens (equal to or less than 767px)*/
+
 @media (max-width:767px){
-  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12{
+
+  section{
+    margin-top: 20px;
+    margin-left: 15%;
+    width: 70%;
+    height: 300px;
+    position: relative;
+    }
+
+  .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12{
     float: left;
   }
 
-.col-md-1 {
+.col-sm-1 {
     width: 8.33%;
   }
-  .col-md-2 {
+  .col-sm-2 {
     width: 16.66%;
   }
-  .col-md-3 {
+  .col-sm-3 {
     width: 25%;
   }
-  .col-md-4 {
+  .col-sm-4 {
     width: 33.33%;
   }
-  .col-md-5 {
+  .col-sm-5 {
     width: 41.66%;
   }
-  .col-md-6 {
+  .col-sm-6 {
     width: 50%;
   }
-  .col-md-7 {
+  .col-sm-7 {
     width: 58.33%;
   }
-  .col-md-8 {
+  .col-sm-8 {
     width: 66.66%;
   }
-  .col-md-9 {
+  .col-sm-9 {
     width: 74.99%;
   }
-  .col-md-10 {
+  .col-sm-10 {
     width: 83.33%;
   }
-  .col-md-11 {
+  .col-sm-11 {
     width: 91.66%;
   }
-  .col-md-12 {
+  .col-sm-12 {
     width: 100%;
   }
 }
