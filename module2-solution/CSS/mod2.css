@@ -39,9 +39,10 @@ text-align: center;
   width: 100px;
   padding: 4px;
   text-align: center;
-  position: absolute;
-  left: 80%;
-  top:-7%;
+  float: right;
+  clear: right;
+  margin-top: -2%;
+  margin-right: -2%;
   border-bottom: solid;
   border-left: solid;
   border-color: black;}
@@ -52,10 +53,9 @@ text-align: center;
   width: 100px;
   padding: 4px;
   text-align: center;
-  position: absolute;
   float: right;
-  left: 80%;
-  top:-7%;
+  margin-top: -2%;
+  margin-right: -2%;
   border-bottom: solid;
   border-left: solid;
   border-color: black;}
@@ -66,17 +66,14 @@ text-align: center;
     width: 100px;
     padding: 4px;
     text-align: center;
-    position: absolute;
     float: right;
-    left: 80%;
-    top:-7%;
+    margin-top: -2%;
+    margin-right:-2%;
     border-bottom: solid;
     border-left: solid;
     border-color: black;}
 
-.aboutdish{position: absolute;
-top: 30px; }
-
+.aboutdish{width: auto;}
 
 .row{
     width: 100%;
