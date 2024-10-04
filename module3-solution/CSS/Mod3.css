@@ -21,6 +21,27 @@ font-size: 3em;
 padding-left: 20px;;
 font-family: "Sofia", sans-serif;}
 
+.dropdown{
+    float: right;
+    margin-right: 1%;
+    margin-top: -3%;
+}
+
+#burgerbutton{
+    border: radius 1px;
+}
+
+.dropdown-menu{
+    background-color: grey;
+    border-radius: 10px;
+    height: auto;
+    padding-left: 20px;
+    width: 60px;
+
+}
+.dropdown-item{
+    color: white;
+}
 
 h1{text-align: center;
 color: rgb(255, 204, 85);
@@ -49,15 +70,12 @@ p{ text-align: justify;}
 }
 
 
-
-
-
 /**large*/
-@media (min-width:992px) {
+@media (min-width:769px) {
 
     #food, #drinks, #dessert{
-        width: 90%;
-        height:30%;
+        width: auto;
+        height:auto;
         margin-left: 5%;
         margin-right: 5%;
         margin-top: 2% ;
@@ -109,9 +127,17 @@ p{ text-align: justify;}
 
 
 /**medium**/
-@media (min-width: 768px){
+@media (max-width: 768px){
+    #food, #drinks, #dessert{
+        width: auto;
+        height:auto;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 2% ;
+        position: relative;
+        padding-left: 1%;
+        padding-right: 1%;}
   
-
     .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12
 
         .col-md-1 {
@@ -155,8 +181,16 @@ p{ text-align: justify;}
 
 
 /**small**/
-@media (min-width: 576px){
-
+@media (max-width: 576px){
+    #food, #drinks, #dessert{
+        width: auto;
+        height:auto;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 10px ;
+        position: relative;
+        padding-left: 1%;
+        padding-right: 1%;}
 
     .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12
         .col-sm-1 {
