@@ -21,28 +21,14 @@ font-size: 3em;
 padding-left: 20px;;
 font-family: "Sofia", sans-serif;}
 
-.dropdown{
-    float: right;
-    margin-right: 1%;
-    margin-top: -3%;
+.navbar-toggle{
+  position: relative;
+  float: right;
+  margin-right: 2%;
+  margin-top: -7%;
 }
 
-#burgerbutton{
-    border: radius 1px;
-}
-
-.dropdown-menu{
-    background-color: grey;
-    border-radius: 10px;
-    height: auto;
-    padding-left: 20px;
-    width: 60px;
-
-}
-.dropdown-item{
-    color: white;
-}
-
+ 
 h1{text-align: center;
 color: rgb(255, 204, 85);
 font-family: 'Trebuchet MS', sans-serif;
@@ -72,6 +58,8 @@ p{ text-align: justify;}
 
 /**large*/
 @media (min-width:769px) {
+
+  .navbar-toggle{ display: none;}
 
     #food, #drinks, #dessert{
         width: auto;
@@ -128,6 +116,9 @@ p{ text-align: justify;}
 
 /**medium**/
 @media (max-width: 768px){
+
+  
+
     #food, #drinks, #dessert{
         width: auto;
         height:auto;
@@ -182,6 +173,8 @@ p{ text-align: justify;}
 
 /**small**/
 @media (max-width: 576px){
+
+  
     #food, #drinks, #dessert{
         width: auto;
         height:auto;
