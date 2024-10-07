@@ -16,17 +16,10 @@ header{
     border-width: 10px;
 }
 
-#brandname{color: rgb(245, 245, 245);
+.navbar-brand{color: rgb(245, 245, 245);
 font-size: 3em;
 padding-left: 20px;;
 font-family: "Sofia", sans-serif;}
-
-.navbar-toggle{
-  position: relative;
-  float: right;
-  margin-right: 2%;
-  margin-top: -7%;
-}
 
  
 h1{text-align: center;
@@ -58,8 +51,6 @@ p{ text-align: justify;}
 
 /**large*/
 @media (min-width:769px) {
-
-  .navbar-toggle{ display: none;}
 
     #food, #drinks, #dessert{
         width: auto;
