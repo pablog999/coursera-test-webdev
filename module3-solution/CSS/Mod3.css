@@ -12,7 +12,7 @@
   background-color: green;
   border-radius: 0;
   border: 0;
-  margin: -8;}
+  margin: -8px;}
 
 
 .navbar-brand h1{
@@ -40,9 +40,16 @@ ul{list-style-type: none;}
   float: right;
   margin-right: 3%;
   margin-top: -1%;
+  background-color: green;
+  text-align: center;
+  padding: 1%;
 }
 #nav-list a{
   color: yellow;
+}
+
+#nav-list a:hover{
+  color: orange;
 }
 
  
@@ -58,22 +65,22 @@ h3{
 
 p{ text-align: justify;}
 
-#food{
+#Food{
     background-color: burlywood;
     border: solid;
 }
 
-#drinks{
+#Drinks{
     background-color: burlywood;
     border: solid;
 }
 
-#dessert{
+#Dessert{
     background-color: burlywood;
     border: solid;
 }
 
-#food, #drinks, #dessert{
+#Food, #Drinks, #Dessert{
   width: auto;
   height:auto;
   margin-left: 1%;
