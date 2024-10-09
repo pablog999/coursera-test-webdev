@@ -14,12 +14,14 @@
   border: 0;
   margin: -8;}
 
+
 .navbar-brand h1{
   font-family: sofia;
   color: white;
   margin-top: 0;
   margin-bottom: 0;
   padding-top: 1%;
+  padding-bottom: 1%;
   padding-left: 2%;
 }
 
@@ -29,6 +31,18 @@
   background-color: transparent;
   border-radius: 4px;
   margin-right: 2%;
+  margin-top: -6%;
+}
+
+ul{list-style-type: none;}
+
+#nav-list{
+  float: right;
+  margin-right: 3%;
+  margin-top: -1%;
+}
+#nav-list a{
+  color: yellow;
 }
 
  
