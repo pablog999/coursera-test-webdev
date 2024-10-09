@@ -8,16 +8,14 @@
 
 /****header****/
 
-#header-nav{
-  background-color: green;
-  border-radius: 0;
-  border: 0;
-  margin: -8px;}
 
+#header-nav {
+  background-color: green; 
+}
 
 .navbar-brand h1{
   font-family: sofia;
-  color: white;
+  color: blue;
   margin-top: 0;
   margin-bottom: 0;
   padding-top: 1%;
@@ -25,32 +23,17 @@
   padding-left: 2%;
 }
 
-.navbar-toggle{
+/*.navbar-toggle{
   position: relative;
   float: right;
   background-color: transparent;
   border-radius: 4px;
   margin-right: 2%;
   margin-top: -6%;
-}
+}*/
 
 ul{list-style-type: none;}
 
-#nav-list{
-  float: right;
-  margin-right: 3%;
-  margin-top: -1%;
-  background-color: green;
-  text-align: center;
-  padding: 1%;
-}
-#nav-list a{
-  color: yellow;
-}
-
-#nav-list a:hover{
-  color: orange;
-}
 
  
 h2{text-align: center;
@@ -81,7 +64,7 @@ p{ text-align: justify;}
 }
 
 #Food, #Drinks, #Dessert{
-  width: auto;
+  width: 90%;
   height:auto;
   margin-left: 1%;
   margin-right: 1%;
