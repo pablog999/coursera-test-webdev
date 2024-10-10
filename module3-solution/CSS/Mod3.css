@@ -18,26 +18,55 @@
 
 .navbar-brand h1{
   font-family: sofia;
-  color: blue;
+  color: rgb(230, 129, 196);
   margin-top: 0;
   margin-bottom: 0;
   padding-top: 1%;
   padding-bottom: 1%;
   padding-left: 2%;
+  text-shadow: 4px 3px 4px;
+  text-shadow: white;
+ 
 }
 
-/*.navbar-toggle{
-  position: relative;
-  float: right;
-  background-color: transparent;
-  border-radius: 4px;
-  margin-right: 2%;
-  margin-top: -6%;
-}*/
+.navbar-toggler {
+  border-color:rgb(230, 129, 196);
+}
+.navbar-toggler:hover{
+  background-color:rgb(69, 69, 163) ;
+  
+}
 
-ul{list-style-type: none;}
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+.navbar-toggler[aria-expanded="true"] {
+  background-color:  rgb(69, 69, 163); 
+}
 
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(230, 129, 196, 1)' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
 
+.nav-link{
+color: burlywood;
+text-align: center;
+}
+
+.nav-link:hover{
+  color: rgb(217, 153, 68);
+  background-color:rgb(69, 69, 163);
+}
+
+@media (min-width: 577px) {
+  .navbar-nav {
+      display: none;
+  }
+
+  .navbar-toggler{
+    display: none;
+  }
+}
  
 h2{text-align: center;
 color: rgb(225, 112, 55);
@@ -51,38 +80,23 @@ h3{
 
 p{ text-align: justify;}
 
-#Food{
+#Food, #Drinks, #Dessert{
     background-color: burlywood;
     border: solid;
 }
 
-#Drinks{
-    background-color: burlywood;
-    border: solid;
-}
-
-#Dessert{
-    background-color: burlywood;
-    border: solid;
-}
 
 #Food, #Drinks, #Dessert{
   width: 90%;
   height:auto;
-  margin-left: 4%;
-  margin-right: 4%;
+  margin-left: 5%;
   margin-top: 2% ;
+  margin-bottom: 2%;
   padding-left: 1%;
   padding-right: 1%;
 }
 
 
-@media (min-width:577px){
-  .navbar-toggle{
-    display: none;
-  }
-    
-}
 
 /**large*/
 @media (min-width:769px) {
@@ -128,8 +142,6 @@ p{ text-align: justify;}
             width: 100%;
           }
 }
-
-
 
 
 /**medium**/
@@ -178,20 +190,9 @@ p{ text-align: justify;}
 }
 
 
-
 /**small**/
 @media (max-width: 576px){
 
-  
-    #food, #drinks, #dessert{
-        width: auto;
-        height:auto;
-        margin-left: 5%;
-        margin-right: 5%;
-        margin-top: 10px ;
-        position: relative;
-        padding-left: 1%;
-        padding-right: 1%;}
 
     .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12
         .col-sm-1 {
