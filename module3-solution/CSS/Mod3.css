@@ -51,6 +51,7 @@
 .nav-link{
 color: burlywood;
 text-align: center;
+border-bottom: solid rgb(69, 69, 163);
 }
 
 .nav-link:hover{
